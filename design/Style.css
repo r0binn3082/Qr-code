@@ -1,0 +1,51 @@
+:root{
+    --body-color: hsl(220, 15%, 55%);
+    --section-color: white;
+    --p-color: hsl(212, 45%, 89%);
+}
+body{
+    background-color: var(--p-color);
+    font-size: 15px;
+    font-family: Outfit;
+    overflow: hidden;
+}
+.content{
+    margin: 100px auto;
+    width: 300px;
+    height: 450px;
+    background-color: var(--section-color);
+}
+.img{
+    position: relative;
+    left: 12.5px;
+}
+#QR{
+    width: 275px;
+}
+.blank{
+    height: 300px;
+}
+.words{
+    position: relative;
+    text-align: center;
+    margin: 0 25px 0 25px;
+}
+.bolded{
+    font-weight: 700;
+    color: black;
+}
+.subs{
+    color: var(--body-color);
+    font-weight: 400;
+}
+.all {
+    position: relative;
+    padding-top: 15px;
+}
+.attribution a{
+ text-decoration: underline;    
+ color: black;
+}
+.attribution a:hover{
+    background-color: rgb(76, 76, 202);
+}
